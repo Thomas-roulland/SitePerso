@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body.home {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.topnav{
+  overflow: hidden;
+  text-align: center;
+}
+
+.barre{
+
+color: white;
+text-decoration: none;
+font-family: 'Rubik', sans-serif;
+}
+
+.barre:hover {
+
+  color: #5eb891;
+  border-bottom: solid 2px #5eb891;
+}
+
+.nav {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.gauche{
+  float: left;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.block-container {
+  display: flex;
+}
+
+.block {
+  padding: 32px;
+  height: 100vh;
+}
+
+.block-red {
+  width: 40%;
+  background-image: url("../images/laptop2.jpeg");
+  background-size: cover;
+}
+
+.block-blue {
+  width: 60%;
+  background: rgb(29,29,29);
+  background: linear-gradient(90deg, rgba(29,29,29,1) 0%, rgba(89,92,91,1) 50%, rgba(35,35,36,1) 100%);
+}
+
+
+.container{
+  height: 100%;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-primary{
+  font-size: 100px;
+  color: white;
+}
+
+.subtitle{
+  font-size: 100px;
+  color: #5eb891;
+  
+}
+
+.text{
+  font-size: 40px;
+  color: white;
+}
+
+
+
