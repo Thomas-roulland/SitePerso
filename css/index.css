@@ -63,9 +63,10 @@ font-family: 'Rubik', sans-serif;
   height: 100%;
   font-family: 'Rubik', sans-serif;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
   flex-direction: column;
+  margin-right: 50px;
 }
 
 .title-primary{
@@ -86,3 +87,37 @@ font-family: 'Rubik', sans-serif;
 
 
 
+.couleur {
+  background-color: #222;
+  border-radius: 10px;
+  text-align: center;
+  width: 10%;
+  margin: auto;
+
+  }
+  
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+ 
+.lien {
+
+color: #5eb891;
+padding: 5px;
+font-size: 30px ;
+}
+
+.lien:hover {
+
+font-size: 40px;
+transition: 0.5s;
+color: #B561BB;
+transition: 0.5s ease-in-out;
+
+}

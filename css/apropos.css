@@ -8,7 +8,6 @@ body {
 body.competence {
 
   background-color: #5eb891;
-  overflow: hidden;
 }
 
 body.expe {
@@ -184,7 +183,16 @@ body.expe {
     position: absolute;
     width: 15%;
     left: 8%;
-    bottom: 30%;
+  }
+
+  .image1{
+
+    position: absolute;
+    top: 250px;
+    left: 480px;
+    width: 12%;
+
+
   }
 
   .logo-loc {
@@ -209,7 +217,7 @@ body.expe {
     color: whitesmoke;
     position: absolute;
     left: 23.5%;
-    top:30.6%;
+    top:35.5%;
   }
 
   .logo-shop2{
@@ -218,7 +226,7 @@ body.expe {
     color: whitesmoke;
     position: absolute;
     left: 23.5%;
-    top:65.8%;
+    top:70.5%;
   }
 
 
@@ -482,4 +490,39 @@ svg circle:nth-child(2)
 .card:hover .text2 {
 
   color: #222;
+}
+
+.couleur {
+  background-color: white;
+  border-radius: 10px;
+  width: 4%;
+  margin: auto;
+  position: absolute;
+  right: 100px;
+  top: 50%;
+
+  }
+  
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+ 
+.lien {
+
+color: #222;
+padding: 5px;
+font-size: 30px ;
+}
+
+.lien:hover {
+
+font-size: 40px;
+transition: 0.5s;
+color: #5eb891;
+transition: 0.5s ease-in-out;
+
 }
