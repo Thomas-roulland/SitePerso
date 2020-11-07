@@ -1,6 +1,6 @@
 <?php
 $nomcomp=['ROULLAND Thomas'];
-$menu = ['A propos' => 'apropos.php','Compétences' => 'competences.php','Expérience' => 'experience.php','Formation' => 'formation.php','Contact' => 'contact.php'];
+$menu = ['A propos' => '#apropos','Compétences' => '#competences','Expérience' => '#experience','Formation' => '#formation','Contact' => '#contact'];
 $aPropos=['title'=>'ROULLAND Thomas','subTitle'=>'Etudiant en informatique','accroche'=>'Vive les 0/1','contentFile'=>'
 Ayant actuellement 19 ans, je suis étudiant en BTS SIO en option
 SLAM. J’ai pour projet de travailler dans le web ou mobile, car se
