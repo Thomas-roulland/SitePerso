@@ -18,17 +18,19 @@ include "newphp.php";
 <body class="home">
     <div id="home" class="block-container">
         <div class="block block-blue">
-            <div class="topnav">
+            <nav>
+                 <div class="postion">
             <?php 
             foreach($nomcomp as $item) { ?>
-                <a class=" barre gauche" href="index.php"><?php echo $item;?></a>
+                <a class=" barre gauche" href="newIndex.php"><?php echo $item;?></a>
             <?php } ?>
             <?php 
             foreach($menu as $label => $link) { ?>
-                <a class="barre nav" href="<?php echo $link;?>"><?php echo $label;?></a>
+                <a class="barre deco" href="<?php echo $link;?>"><?php echo $label;?></a>
             <?php } ?>
-
-            </div>
+                 </div>
+            </nav>
+            
                 <div class="container">
                 <?php 
                  foreach($nom as $item) { ?>
@@ -237,6 +239,18 @@ include "newphp.php";
         </div>
     
 
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script>
+    $(window).scroll(function(){
+        if($(window).scrollTop()){
+            $("nav").addClass("black");
+        }
+        else{
+            $("nav").removeClass("black");
+        }
+    });
+</script>
 </body>
 </html>
 
