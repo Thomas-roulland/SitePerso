@@ -481,12 +481,17 @@ div#experience .logo-shop{
 
 color: whitesmoke;
 position: absolute;
-position: relative;
+top : 337%;
+left : 22%;
+font-size: 35px;
 }
 
 div#experience .logo-shop2{
     color: whitesmoke;
     position: absolute;
+    font-size: 35px;
+    top: 374%;
+    left: 22%
 }
 
 div#experience .text{

@@ -1,6 +1,7 @@
 <?php
 
-include "newphp.php";
+include_once "newphp.php";
+include_once "data.php";
 
 ?>
 
@@ -49,25 +50,25 @@ include "newphp.php";
         <div class="block block-red">
             <div class="couleur">
                 <div class="wrapper">
-                    <a href="#">
+                    <a href="https://www.facebook.com/thomas.roulland.9" target="_blank">
                         <i class=" lien fab fa-facebook-f"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/RoullandThomas"target="_blank">
                         <i class="lien fab fa-twitter"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/roulland.thomas/"target="_blank">
                         <i class="lien fab fa-instagram"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/thomas-roulland-128a691b5/"target="_blank">
                         <i class="lien fab fa-linkedin"></i>
                     </a>
-                    <a href="#">
-                        <i class="lien fas fa-at"></i>
-                    </a>
+
                 </div>
             </div>
         </div>
     </div>
+
+
 
     <div id="apropos" class="description">
         <div class="title-primary"><?php echo $aPropos['title'];?></div>
@@ -211,13 +212,8 @@ include "newphp.php";
                     </div>
 
                     <div class="txtb">
-                        <label>Numéro de téléphone :</label>
-                        <input type="text" name="tel" value="" placeholder="Enrtrer votre numéro de téléphone" >
-                    </div>
-
-                    <div class="txtb">
-                        <label>Message :</label>
-                        <textarea name="mess"></textarea>
+                        <label>Message :*</label>
+                        <textarea name="mess" required></textarea>
                     </div>
                     <div class="middle">
                         <div class="g-recaptcha" data-sitekey="6LdyRt4ZAAAAAITLhfV8OZCyeaRGcWMQMlQJ6o81"></div>
@@ -237,6 +233,8 @@ include "newphp.php";
             <p>07.77.77.00.66</p>
             <p>7 rue des randonnées, EVRECY 14210</p>
         </div>
+
+      
     
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
