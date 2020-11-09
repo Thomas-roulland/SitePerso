@@ -13,7 +13,7 @@ include_once "data.php";
     <title>ROULLAND Thomas</title>
     <link rel="stylesheet" href="../css/newstyle.css">
     <link rel="stylesheet" href="../font/css/all.css">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
     
 </head>
 <body class="home">
@@ -195,7 +195,7 @@ include_once "data.php";
     </div>
 
     
-
+    
     <div id="contact">
         <form action="newIndex.php" method="POST" name="inscription">
             <div class="contact-section">
@@ -238,6 +238,8 @@ include_once "data.php";
     
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
 <script>
     $(window).scroll(function(){

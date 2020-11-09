@@ -1,7 +1,10 @@
 <?php
 require_once '../recaptcha/src/autoload.php';
+
+
 if(isset($_POST['submitpost'])){
 
+	if(!empty($_POST['g-recaptcha-response'])){
     if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['mess']))
 	{
 		$header="MIME-Version: 1.0\r\n";
@@ -33,9 +36,18 @@ if(isset($_POST['submitpost'])){
 	{
 		$msg="Tous les champs doivent être complétés !";
 	}  
-}
-  
 
+}else{
+	$msg_captcha="<p class='form_error_2'><i class='fas fa-times'></i> merci de valider le captcha</p>";
+}
+if(isset($msg)) {
+	echo $msg;
+} //on écrit le message qu'il soit la confirmation d'envoi ou un message d'erreur
+
+if(isset($msg_captcha)) {
+	echo $msg_captcha;
+}
+}
 
 
 ?>
