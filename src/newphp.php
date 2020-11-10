@@ -1,5 +1,5 @@
 <?php
-require_once '../recaptcha/src/autoload.php';
+require_once 'recaptcha/src/autoload.php';
 
 
 if(isset($_POST['submitpost'])){
