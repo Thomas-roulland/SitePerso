@@ -1,7 +1,7 @@
 <?php
 
-include_once "newphp.php";
-include_once "data.php";
+include_once "src/newphp.php";
+include_once "src/data.php";
 
 ?>
 
@@ -11,8 +11,8 @@ include_once "data.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROULLAND Thomas</title>
-    <link rel="stylesheet" href="../css/newstyle.css">
-    <link rel="stylesheet" href="../font/css/all.css">
+    <link rel="stylesheet" href="css/newstyle.css">
+    <link rel="stylesheet" href="font/css/all.css">
     
     
 </head>
@@ -75,7 +75,7 @@ include_once "data.php";
         <div class="subtitle"><?php echo $aPropos['subTitle'];?></div>
         <div class="accroche"><?php echo $aPropos['accroche'];?></div>
         <div class="text"><?php echo $aPropos['contentFile'];?></div>
-        <img src="../images/lol.jpg" alt="">
+        <img src="images/lol.jpg" alt="">
     </div>
 
     <div id="competences">
@@ -180,7 +180,7 @@ include_once "data.php";
         <div class="description">
                 <div class="title-primary"><?php echo $formation['title']; ?> </div>
                 <div class="bloc">
-                    <img class="image1" src="../images/supavenir.png" alt="">
+                    <img class="image1" src="images/supavenir.png" alt="">
                     <div class="subtitle"><?php echo $formation['subtitle']; ?> </div>
                     <div class="accroche"><?php echo $formation['accroche']; ?> </div>
                     <i class="logo-loc fas fa-map-marker-alt"></i>
