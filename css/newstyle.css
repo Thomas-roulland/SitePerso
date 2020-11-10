@@ -111,9 +111,18 @@ text-align: center;
 width: 10%;
 position: relative;
 left: 60%;
+<<<<<<< HEAD
 }
 
 
+=======
+top: 11%;
+
+}
+
+
+
+>>>>>>> 47441ac180ae232bd7b635d5ed560797d199f72d
 .wrapper {
 position: fixed;
 width: 3%;
@@ -478,7 +487,11 @@ div#experience .logo-shop{
 
 color: whitesmoke;
 position: absolute;
+<<<<<<< HEAD
 top : 342%;
+=======
+top : 337%;
+>>>>>>> 47441ac180ae232bd7b635d5ed560797d199f72d
 left : 22%;
 font-size: 35px;
 }
@@ -487,7 +500,11 @@ div#experience .logo-shop2{
     color: whitesmoke;
     position: absolute;
     font-size: 35px;
+<<<<<<< HEAD
     top: 377%;
+=======
+    top: 374%;
+>>>>>>> 47441ac180ae232bd7b635d5ed560797d199f72d
     left: 22%
 }
 
@@ -528,7 +545,11 @@ div#formation .block{
     
     width: 13%;
     position: absolute;
+<<<<<<< HEAD
     top : 433%;
+=======
+    top : 422%;
+>>>>>>> 47441ac180ae232bd7b635d5ed560797d199f72d
     left: 25%;
 }
 
