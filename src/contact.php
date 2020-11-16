@@ -1,3 +1,4 @@
+
 <div id="contact">
         <form action="newIndex.php" method="POST" name="inscription">
             <div class="contact-section">

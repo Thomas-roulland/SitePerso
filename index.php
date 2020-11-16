@@ -1,7 +1,7 @@
 <?php
 
-include_once "newphp.php";
-include_once "data.php";
+include_once "src/newphp.php";
+include_once "src/data.php";
 
 ?>
 
@@ -11,8 +11,8 @@ include_once "data.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/newstyle.css">
-    <link rel="stylesheet" href="../font/css/all.css">
+    <link rel="stylesheet" href="css/newstyle.css">
+    <link rel="stylesheet" href="font/css/all.css">
 </head>
 <body class="home">
     
@@ -20,12 +20,12 @@ include_once "data.php";
     
 <?php 
 
-include "header.php";
-include "apropos.php";
-include "competences.php";
-include "experience.php";
-include "formation.php";
-include "contact.php";
+include "src/header.php";
+include "src/apropos.php";
+include "src/competences.php";
+include "src/experience.php";
+include "src/formation.php";
+include "src/contact.php";
 
 
 ?>

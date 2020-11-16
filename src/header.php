@@ -21,7 +21,7 @@ include_once "data.php";
                  <div class="postion">
             <?php 
             foreach($nomcomp as $item) { ?>
-                <a class=" barre gauche" href="newIndex.php"><?php echo $item;?></a>
+                <a class=" barre gauche" href="index.php"><?php echo $item;?></a>
             <?php } ?>
             <?php 
             foreach($menu as $label => $link) { ?>
