@@ -29,7 +29,20 @@ include "src/contact.php";
 
 
 ?>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
+
+<script>
+    $(window).scroll(function(){
+        if($(window).scrollTop()){
+            $("nav").addClass("black");
+        }
+        else{
+            $("nav").removeClass("black");
+        }
+    });
+</script>
 </body>
 </html>
 
