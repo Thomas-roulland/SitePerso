@@ -10,7 +10,7 @@ include_once "src/data.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ROULLAND Thomas</title>
     <link rel="stylesheet" href="css/newstyle.css">
     <link rel="stylesheet" href="font/css/all.css">
 </head>
