@@ -31,11 +31,12 @@
 
     <div id="foot">
         <div class="footer">
-            <p class="bold">Mentions légales, crédits</p>
+           <a href="mention.php"> <p class="bold">Mentions légales, crédits</p> </a> 
             <p>@ROULLAND Thomas</p>
             <p>07.77.77.00.66</p>
             <p>7 rue des randonnées, EVRECY 14210</p>
         </div>
+    </div>
 
         </body>
 </html>

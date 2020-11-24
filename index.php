@@ -28,6 +28,7 @@ include "src/formation.php";
 include "src/contact.php";
 
 
+
 ?>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>

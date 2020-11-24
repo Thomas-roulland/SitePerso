@@ -5,6 +5,11 @@ margin: 0;
 height: 100vh;
 }
 
+body#mention {
+  margin: 0;
+  padding: 0;
+}
+
 nav{
 overflow: hidden;
 position: fixed;
@@ -14,8 +19,28 @@ left: 0;
 padding: 30px;
 transition: 1s;
 z-index: 1500;
+
 }
 
+div#mention nav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  transition: 1s;
+  z-index: 1500;
+  background-color: #b6b9b6;
+  }
+  
+
+div#mention .barre{
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
 
 
 nav.black {
@@ -87,6 +112,15 @@ flex-direction: column;
 margin-right: 50px;
 }
 
+div#mention .container{
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  margin-top: 100px;
+  
+  }
+
 .title-primary{
 font-size: 100px;
 color: white;
@@ -95,8 +129,18 @@ color: white;
 .subtitle{
 font-size: 100px;
 color: #5eb891;
-
 }
+
+div#mention .title-primary{
+  font-size: 25px;
+  color: black;
+  }
+
+div#mention .subtitle{
+  font-size: 30px;
+  color: #5eb891;
+  }
+  
 
 .text{
 font-size: 40px;
@@ -656,4 +700,15 @@ div#contact  .txtb label{
 
   #menu.cus-nav a{
     color : white;
+  }
+
+  .left{
+
+    text-align: left;
+  }
+
+  .moitier {
+
+
+    width: 50%;
   }
