@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
 <div id="formation">
         <div class="description">
             
@@ -24,3 +36,5 @@
                  <img class="image1" src="images/supavenir.png" alt="">
         </div>
     </div>
+    </body>
+</html>

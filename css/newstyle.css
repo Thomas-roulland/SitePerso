@@ -5,6 +5,11 @@ margin: 0;
 height: 100vh;
 }
 
+body#mention {
+  margin: 0;
+  padding: 0;
+}
+
 nav{
 overflow: hidden;
 position: fixed;
@@ -14,8 +19,28 @@ left: 0;
 padding: 30px;
 transition: 1s;
 z-index: 1500;
+
 }
 
+div#mention nav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  transition: 1s;
+  z-index: 1500;
+  background-color: #b6b9b6;
+  }
+  
+
+div#mention .barre{
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
 
 
 nav.black {
@@ -87,6 +112,15 @@ flex-direction: column;
 margin-right: 50px;
 }
 
+div#mention .container{
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  margin-top: 100px;
+  
+  }
+
 .title-primary{
 font-size: 100px;
 color: white;
@@ -95,8 +129,18 @@ color: white;
 .subtitle{
 font-size: 100px;
 color: #5eb891;
-
 }
+
+div#mention .title-primary{
+  font-size: 25px;
+  color: black;
+  }
+
+div#mention .subtitle{
+  font-size: 30px;
+  color: #5eb891;
+  }
+  
 
 .text{
 font-size: 40px;
@@ -648,6 +692,16 @@ div#contact  .txtb label{
 
     font-weight: bold;
     text-decoration: underline;
+    color: white;
+  }
+
+  div#foot .bold:hover{
+
+    font-weight: bold;
+    text-decoration: underline;
+    color: #5eb891;
+    font-size: 18px;
+    transition: 0.8s;
   }
 
   #menu.cus-nav {
@@ -657,3 +711,75 @@ div#contact  .txtb label{
   #menu.cus-nav a{
     color : white;
   }
+
+  .left{
+
+    text-align: left;
+  }
+
+  .moitier {
+
+
+    width: 50%;
+  }
+
+  .styles {
+
+border-radius: 25px;
+border : 1px white 10px;
+background-color:#5eb891;
+text-decoration: none;
+color : black;
+padding: 15px;
+  }
+
+  .styles:hover {
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+  }
+
+  .btnhome {
+
+    position: absolute;
+    right: 2%;
+    bottom: 100%;
+    border-radius: 30px;
+    background-color: wheat;
+    color: black;
+  }
+
+  .clh {
+
+
+text-decoration: none;
+background-color: wheat;
+border-radius: 50px;
+color: black;
+padding: 15px;
+position: fixed;
+right: 2%;
+bottom: 2%;
+
+  }
+
+  .clh:hover {
+
+    font-size: 1.5em;
+    transition: 0.5s;
+  }
+
+  #topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #8d8d8b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  
