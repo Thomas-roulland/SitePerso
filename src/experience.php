@@ -39,11 +39,7 @@
                     </div>
                 </div>
 
-<<<<<<< HEAD
             <a class="link styles" href="Documents/CV.pdf" download> Télécharger mon CV </a> 
-=======
-            <a class="link" href="Documents/CV.pdf" download> <input class="btn" type="button" value="Télécharger mon CV"  /> </a> 
->>>>>>> 5e22d6e3174f7d1321d02b90be74ec1a0ee913ff
             
         </div>
     </div></body>

@@ -783,3 +783,20 @@ bottom: 2%;
     display: none;
   }
   
+.bthome {
+
+  background-color:#8d8d8b ;
+  border-radius: 35px;
+  color:white ;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  padding: 10px;
+}
+
+.bthome:hover {
+
+  font-size: 1.5em;
+  transition: 0.8s;
+
+}
