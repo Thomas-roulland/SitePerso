@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
 <div id="experience" >
         <div class="description">
             <div class="title-primary"><?php echo $experience['title']; ?></div>
@@ -7,7 +18,7 @@
                     <div id="type2" class="type2"><?php echo $experience['poste']; ?></div>
                     <div id="type4" class="type4"><?php echo $experience['etablissement']; ?></div>
                     <div  id="type3" class="type3"><?php echo $experience['date']; ?></div>
-                    <div id="type4" class="type4"><?php echo $experience['lieux']; ?></div>
+                    <div  class="type4"><?php echo $experience['lieux']; ?></div>
                     <i class="logo-shop fas fa-store"></i>
                 </div>
                     <div class="bloc2">
@@ -28,7 +39,12 @@
                     </div>
                 </div>
 
-            <a class="link" href="CV.pdf" download><input class="btn" type="button" value="Télécharger mon CV" ></a> 
+<<<<<<< HEAD
+            <a class="link styles" href="Documents/CV.pdf" download> Télécharger mon CV </a> 
+=======
+            <a class="link" href="Documents/CV.pdf" download> <input class="btn" type="button" value="Télécharger mon CV"  /> </a> 
+>>>>>>> 5e22d6e3174f7d1321d02b90be74ec1a0ee913ff
             
         </div>
-    </div>
+    </div></body>
+</html>
